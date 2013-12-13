@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'E:\\Pierre\\nodejs\\\\node.exe',
+1 verbose cli   'E:\\Pierre\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jasmine' ]
+2 info using npm@1.3.17
+3 info using node@v0.10.23
+4 verbose node symlink E:\Pierre\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'jasmine', null ]
+7 verbose cache add name=undefined spec="jasmine" args=["jasmine",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'jasmine',
+8 verbose parsed url   path: 'jasmine',
+8 verbose parsed url   href: 'jasmine' }
+9 silly lockFile 5bfd08bd-jasmine jasmine
+10 verbose lock jasmine C:\Users\Pierre\AppData\Roaming\npm-cache\5bfd08bd-jasmine.lock
+11 silly lockFile 5bfd08bd-jasmine jasmine
+12 silly lockFile 5bfd08bd-jasmine jasmine
+13 verbose addNamed [ 'jasmine', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile fdd358a6-jasmine jasmine@
+16 verbose lock jasmine@ C:\Users\Pierre\AppData\Roaming\npm-cache\fdd358a6-jasmine.lock
+17 silly addNameRange { name: 'jasmine', range: '*', hasData: false }
+18 verbose url raw jasmine
+19 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine' ]
+20 verbose url resolved https://registry.npmjs.org/jasmine
+21 info trying registry request attempt 1 at 23:39:35
+22 http GET https://registry.npmjs.org/jasmine
+23 http 404 https://registry.npmjs.org/jasmine
+24 silly registry.get cb [ 404,
+24 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+24 silly registry.get     date: 'Fri, 13 Dec 2013 22:39:35 GMT',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'cache-control': 'must-revalidate' } ]
+25 silly lockFile fdd358a6-jasmine jasmine@
+26 silly lockFile fdd358a6-jasmine jasmine@
+27 error 404 'jasmine' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Windows_NT 6.1.7601
+29 error command "E:\\Pierre\\nodejs\\\\node.exe" "E:\\Pierre\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jasmine"
+30 error cwd E:\Pierre\NodeJS sources\nodejs_webservice
+31 error node -v v0.10.23
+32 error npm -v 1.3.17
+33 error code E404
+34 verbose exit [ 1, true ]
